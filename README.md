@@ -1,1 +1,1 @@
-MiniMIPS32 处理器设计
+MiniMIPS32 CPU
