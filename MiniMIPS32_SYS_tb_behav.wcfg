@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MiniMIPS32_SYS_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MiniMIPS32_SYS_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3586051750000fs"></ZoomStartTime>
+      <ZoomEndTime time="3586163650001fs"></ZoomEndTime>
+      <Cursor1Time time="3586145000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="251"></NameColumnWidth>
+      <ValueColumnWidth column_width="222"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="84" />
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/sys_clk_100M">
+      <obj_property name="ElementShortName">sys_clk_100M</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_100M</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/sys_rst_n">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/io_dec0/led_rgb0">
+      <obj_property name="ElementShortName">led_rgb0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">led_rgb0[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/io_dec0/led_rgb1">
+      <obj_property name="ElementShortName">led_rgb1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">led_rgb1[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs">
+      <obj_property name="ElementShortName">regs[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[0:31][31:0]</obj_property>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[0]">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[1]">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[2]">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[3]">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[4]">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[5]">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[6]">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[7]">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[8]">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[9]">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[10]">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[11]">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[12]">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[13]">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[14]">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[15]">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[16]">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[17]">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[18]">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[19]">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[20]">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[21]">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[22]">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[23]">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[24]">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[25]">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[26]">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[27]">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[28]">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[29]">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[30]">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[31]">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_lui">
+      <obj_property name="ElementShortName">inst_lui</obj_property>
+      <obj_property name="ObjectShortName">inst_lui</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_addu">
+      <obj_property name="ElementShortName">inst_addu</obj_property>
+      <obj_property name="ObjectShortName">inst_addu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_addi">
+      <obj_property name="ElementShortName">inst_addi</obj_property>
+      <obj_property name="ObjectShortName">inst_addi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_add">
+      <obj_property name="ElementShortName">inst_add</obj_property>
+      <obj_property name="ObjectShortName">inst_add</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_add">
+      <obj_property name="ElementShortName">inst_add</obj_property>
+      <obj_property name="ObjectShortName">inst_add</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_subu">
+      <obj_property name="ElementShortName">inst_subu</obj_property>
+      <obj_property name="ObjectShortName">inst_subu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_slt">
+      <obj_property name="ElementShortName">inst_slt</obj_property>
+      <obj_property name="ObjectShortName">inst_slt</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_and">
+      <obj_property name="ElementShortName">inst_and</obj_property>
+      <obj_property name="ObjectShortName">inst_and</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_mult">
+      <obj_property name="ElementShortName">inst_mult</obj_property>
+      <obj_property name="ObjectShortName">inst_mult</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_mfhi">
+      <obj_property name="ElementShortName">inst_mfhi</obj_property>
+      <obj_property name="ObjectShortName">inst_mfhi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_mflo">
+      <obj_property name="ElementShortName">inst_mflo</obj_property>
+      <obj_property name="ObjectShortName">inst_mflo</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_sll">
+      <obj_property name="ElementShortName">inst_sll</obj_property>
+      <obj_property name="ObjectShortName">inst_sll</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_ori">
+      <obj_property name="ElementShortName">inst_ori</obj_property>
+      <obj_property name="ObjectShortName">inst_ori</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_lui">
+      <obj_property name="ElementShortName">inst_lui</obj_property>
+      <obj_property name="ObjectShortName">inst_lui</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_addiu">
+      <obj_property name="ElementShortName">inst_addiu</obj_property>
+      <obj_property name="ObjectShortName">inst_addiu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_sltiu">
+      <obj_property name="ElementShortName">inst_sltiu</obj_property>
+      <obj_property name="ObjectShortName">inst_sltiu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_addu">
+      <obj_property name="ElementShortName">inst_addu</obj_property>
+      <obj_property name="ObjectShortName">inst_addu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_sub">
+      <obj_property name="ElementShortName">inst_sub</obj_property>
+      <obj_property name="ObjectShortName">inst_sub</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_sltu">
+      <obj_property name="ElementShortName">inst_sltu</obj_property>
+      <obj_property name="ObjectShortName">inst_sltu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_or">
+      <obj_property name="ElementShortName">inst_or</obj_property>
+      <obj_property name="ObjectShortName">inst_or</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_nor">
+      <obj_property name="ElementShortName">inst_nor</obj_property>
+      <obj_property name="ObjectShortName">inst_nor</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_xor">
+      <obj_property name="ElementShortName">inst_xor</obj_property>
+      <obj_property name="ObjectShortName">inst_xor</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_srl">
+      <obj_property name="ElementShortName">inst_srl</obj_property>
+      <obj_property name="ObjectShortName">inst_srl</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_sra">
+      <obj_property name="ElementShortName">inst_sra</obj_property>
+      <obj_property name="ObjectShortName">inst_sra</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_sllv">
+      <obj_property name="ElementShortName">inst_sllv</obj_property>
+      <obj_property name="ObjectShortName">inst_sllv</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_srlv">
+      <obj_property name="ElementShortName">inst_srlv</obj_property>
+      <obj_property name="ObjectShortName">inst_srlv</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_srav">
+      <obj_property name="ElementShortName">inst_srav</obj_property>
+      <obj_property name="ObjectShortName">inst_srav</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_multu">
+      <obj_property name="ElementShortName">inst_multu</obj_property>
+      <obj_property name="ObjectShortName">inst_multu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_div">
+      <obj_property name="ElementShortName">inst_div</obj_property>
+      <obj_property name="ObjectShortName">inst_div</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_divu">
+      <obj_property name="ElementShortName">inst_divu</obj_property>
+      <obj_property name="ObjectShortName">inst_divu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_mthi">
+      <obj_property name="ElementShortName">inst_mthi</obj_property>
+      <obj_property name="ObjectShortName">inst_mthi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_mtlo">
+      <obj_property name="ElementShortName">inst_mtlo</obj_property>
+      <obj_property name="ObjectShortName">inst_mtlo</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_addi">
+      <obj_property name="ElementShortName">inst_addi</obj_property>
+      <obj_property name="ObjectShortName">inst_addi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_slti">
+      <obj_property name="ElementShortName">inst_slti</obj_property>
+      <obj_property name="ObjectShortName">inst_slti</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_andi">
+      <obj_property name="ElementShortName">inst_andi</obj_property>
+      <obj_property name="ObjectShortName">inst_andi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_xori">
+      <obj_property name="ElementShortName">inst_xori</obj_property>
+      <obj_property name="ObjectShortName">inst_xori</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_sb">
+      <obj_property name="ElementShortName">inst_sb</obj_property>
+      <obj_property name="ObjectShortName">inst_sb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_sh">
+      <obj_property name="ElementShortName">inst_sh</obj_property>
+      <obj_property name="ObjectShortName">inst_sh</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_lb">
+      <obj_property name="ElementShortName">inst_lb</obj_property>
+      <obj_property name="ObjectShortName">inst_lb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_lbu">
+      <obj_property name="ElementShortName">inst_lbu</obj_property>
+      <obj_property name="ObjectShortName">inst_lbu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_lh">
+      <obj_property name="ElementShortName">inst_lh</obj_property>
+      <obj_property name="ObjectShortName">inst_lh</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_lhu">
+      <obj_property name="ElementShortName">inst_lhu</obj_property>
+      <obj_property name="ObjectShortName">inst_lhu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_j">
+      <obj_property name="ElementShortName">inst_j</obj_property>
+      <obj_property name="ObjectShortName">inst_j</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_jal">
+      <obj_property name="ElementShortName">inst_jal</obj_property>
+      <obj_property name="ObjectShortName">inst_jal</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_beq">
+      <obj_property name="ElementShortName">inst_beq</obj_property>
+      <obj_property name="ObjectShortName">inst_beq</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_bne">
+      <obj_property name="ElementShortName">inst_bne</obj_property>
+      <obj_property name="ObjectShortName">inst_bne</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_jr">
+      <obj_property name="ElementShortName">inst_jr</obj_property>
+      <obj_property name="ObjectShortName">inst_jr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_bgez">
+      <obj_property name="ElementShortName">inst_bgez</obj_property>
+      <obj_property name="ObjectShortName">inst_bgez</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_bgtz">
+      <obj_property name="ElementShortName">inst_bgtz</obj_property>
+      <obj_property name="ObjectShortName">inst_bgtz</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_blez">
+      <obj_property name="ElementShortName">inst_blez</obj_property>
+      <obj_property name="ObjectShortName">inst_blez</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_bltz">
+      <obj_property name="ElementShortName">inst_bltz</obj_property>
+      <obj_property name="ObjectShortName">inst_bltz</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_bgezal">
+      <obj_property name="ElementShortName">inst_bgezal</obj_property>
+      <obj_property name="ObjectShortName">inst_bgezal</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_bltzal">
+      <obj_property name="ElementShortName">inst_bltzal</obj_property>
+      <obj_property name="ObjectShortName">inst_bltzal</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_jalr">
+      <obj_property name="ElementShortName">inst_jalr</obj_property>
+      <obj_property name="ObjectShortName">inst_jalr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_syscall">
+      <obj_property name="ElementShortName">inst_syscall</obj_property>
+      <obj_property name="ObjectShortName">inst_syscall</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_eret">
+      <obj_property name="ElementShortName">inst_eret</obj_property>
+      <obj_property name="ObjectShortName">inst_eret</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_mtc0">
+      <obj_property name="ElementShortName">inst_mtc0</obj_property>
+      <obj_property name="ObjectShortName">inst_mtc0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_mfc0">
+      <obj_property name="ElementShortName">inst_mfc0</obj_property>
+      <obj_property name="ObjectShortName">inst_mfc0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_lw">
+      <obj_property name="ElementShortName">inst_lw</obj_property>
+      <obj_property name="ObjectShortName">inst_lw</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/regfile0/regs[19]">
+      <obj_property name="ElementShortName">[19][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/if_stage0/pc">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/id_inst">
+      <obj_property name="ElementShortName">id_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/cp0_reg0/flush">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/inst_sw">
+      <obj_property name="ElementShortName">inst_sw</obj_property>
+      <obj_property name="ObjectShortName">inst_sw</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/cp0_reg0/exccode_i">
+      <obj_property name="ElementShortName">exccode_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">exccode_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/cp0_reg0/epc">
+      <obj_property name="ElementShortName">epc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">epc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/cp0_reg0/waddr">
+      <obj_property name="ElementShortName">waddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/cp0_reg0/wdata">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/exe_stage0/cp0_wdata_o">
+      <obj_property name="ElementShortName">cp0_wdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cp0_wdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/mem_stage0/cp0_wdata_o">
+      <obj_property name="ElementShortName">cp0_wdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cp0_wdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/wb_stage0/cp0_wdata_o">
+      <obj_property name="ElementShortName">cp0_wdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cp0_wdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/exe_stage0/ov">
+      <obj_property name="ElementShortName">ov</obj_property>
+      <obj_property name="ObjectShortName">ov</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/exe_stage0/exe_src2_i">
+      <obj_property name="ElementShortName">exe_src2_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_src2_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/exe_stage0/exe_src1_i">
+      <obj_property name="ElementShortName">exe_src1_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_src1_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/exe_stage0/arithres">
+      <obj_property name="ElementShortName">arithres[31:0]</obj_property>
+      <obj_property name="ObjectShortName">arithres[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/id_stage0/id_in_delay_o">
+      <obj_property name="ElementShortName">id_in_delay_o</obj_property>
+      <obj_property name="ObjectShortName">id_in_delay_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/mem_stage0/cp0_badvaddr">
+      <obj_property name="ElementShortName">cp0_badvaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cp0_badvaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/cp0_reg0/badvaddr">
+      <obj_property name="ElementShortName">badvaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">badvaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/MiniMIPS32_SYS_tb/SoC/minimips32/cp0_reg0/cause">
+      <obj_property name="ElementShortName">cause[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cause[31:0]</obj_property>
+   </wvobject>
+</wave_config>

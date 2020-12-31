@@ -1,0 +1,17 @@
+!.gitignore
+!/MiniMIPS32.cache/
+!/MiniMIPS32.hw/
+!/MiniMIPS32.ip_user_files/
+!/MiniMIPS32.runs/
+!/MiniMIPS32.sim/
+/MiniMIPS32.sim/sim_1/behav
+!/MiniMIPS32.srcs/
+!/and_inst.coe
+!/MiniMIPS32.xpr
+
+
+/*.log
+/*.jou
+/*.str
+/*.tmp
+/*.debug
